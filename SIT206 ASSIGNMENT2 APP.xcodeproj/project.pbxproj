@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7409D1F81EC6FA1C009CF942 /* orange juice 2.0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7409D1F71EC6F562009CF942 /* orange juice 2.0.ttf */; };
+		7409D1FA1EC70186009CF942 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7409D1F91EC70186009CF942 /* LocationViewController.swift */; };
 		7446EB0F1EB61284000D4B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7446EB0E1EB61284000D4B98 /* AppDelegate.swift */; };
 		7446EB111EB61284000D4B98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7446EB101EB61284000D4B98 /* ViewController.swift */; };
 		7446EB141EB61284000D4B98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7446EB121EB61284000D4B98 /* Main.storyboard */; };
@@ -34,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7409D1F31EC6F37F009CF942 /* 28 Days Later.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "28 Days Later.ttf"; sourceTree = "<group>"; };
 		7409D1F71EC6F562009CF942 /* orange juice 2.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "orange juice 2.0.ttf"; sourceTree = "<group>"; };
+		7409D1F91EC70186009CF942 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		7446EB0B1EB61284000D4B98 /* SIT206 ASSIGNMENT2 APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SIT206 ASSIGNMENT2 APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7446EB0E1EB61284000D4B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7446EB101EB61284000D4B98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,9 +103,9 @@
 			children = (
 				7446EB0E1EB61284000D4B98 /* AppDelegate.swift */,
 				7446EB101EB61284000D4B98 /* ViewController.swift */,
-				7409D1F31EC6F37F009CF942 /* 28 Days Later.ttf */,
 				7409D1F71EC6F562009CF942 /* orange juice 2.0.ttf */,
 				7446EB121EB61284000D4B98 /* Main.storyboard */,
+				7409D1F91EC70186009CF942 /* LocationViewController.swift */,
 				7446EB151EB61284000D4B98 /* Assets.xcassets */,
 				7446EB171EB61284000D4B98 /* LaunchScreen.storyboard */,
 				7446EB1A1EB61284000D4B98 /* Info.plist */,
@@ -236,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7409D1F81EC6FA1C009CF942 /* orange juice 2.0.ttf in Resources */,
 				7446EB191EB61284000D4B98 /* LaunchScreen.storyboard in Resources */,
 				7446EB161EB61284000D4B98 /* Assets.xcassets in Resources */,
 				7446EB141EB61284000D4B98 /* Main.storyboard in Resources */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7409D1FA1EC70186009CF942 /* LocationViewController.swift in Sources */,
 				7446EB111EB61284000D4B98 /* ViewController.swift in Sources */,
 				7446EB0F1EB61284000D4B98 /* AppDelegate.swift in Sources */,
 			);
