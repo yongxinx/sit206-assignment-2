@@ -94,7 +94,7 @@
                             <button opaque="NO" alpha="0.65000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="21s-n6-n99">
                                 <rect key="frame" x="325" y="617" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.14896335820000001" green="0.15393380009999999" blue="0.1672876603" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" image="Screen Shot 2017-05-13 at 6.09.40 PM">
+                                <state key="normal" image="stop">
                                     <color key="titleColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
@@ -104,7 +104,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="IpA-nF-8se"/>
                                 </constraints>
-                                <state key="normal" image="Screen Shot 2017-05-13 at 6.09.19 PM">
+                                <state key="normal" image="pause">
                                     <color key="titleColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
@@ -129,7 +129,7 @@
                                     <constraint firstAttribute="width" constant="50" id="Fat-mt-OKq"/>
                                     <constraint firstAttribute="height" constant="50" id="ydY-9x-naK"/>
                                 </constraints>
-                                <state key="normal" image="Screen Shot 2017-05-13 at 6.09.31 PM">
+                                <state key="normal" image="play">
                                     <color key="titleColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
@@ -361,10 +361,10 @@
             </objects>
             <point key="canvasLocation" x="892" y="838.83058470764627"/>
         </scene>
-        <!--View Controller-->
+        <!--Contact Us View Controller-->
         <scene sceneID="PXB-D6-SZZ">
             <objects>
-                <viewController id="3jE-Y7-8y2" sceneMemberID="viewController">
+                <viewController id="3jE-Y7-8y2" customClass="ContactUsViewController" customModule="SIT206_ASSIGNMENT2_APP" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xCN-h9-ac6"/>
                         <viewControllerLayoutGuide type="bottom" id="vL6-as-fJC"/>
@@ -409,6 +409,36 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="call" translatesAutoresizingMaskIntoConstraints="NO" id="TIR-sP-hUF">
+                                <rect key="frame" x="16" y="214" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mail" translatesAutoresizingMaskIntoConstraints="NO" id="HlP-xy-XhY">
+                                <rect key="frame" x="16" y="300" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eor-wJ-yHl">
+                                <rect key="frame" x="115" y="225" width="232" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="0435021675">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CallPhoneButton:" destination="3jE-Y7-8y2" eventType="touchUpInside" id="Qgg-CD-Mdh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDa-yQ-ZaR">
+                                <rect key="frame" x="115" y="310" width="232" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="nickxieeeee@gmail.com">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="SendMailButton:" destination="3jE-Y7-8y2" eventType="touchUpInside" id="UeT-Jt-TpZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -434,11 +464,13 @@
     </scenes>
     <resources>
         <image name="5" width="500" height="750"/>
-        <image name="Screen Shot 2017-05-13 at 6.09.19 PM" width="117" height="115"/>
-        <image name="Screen Shot 2017-05-13 at 6.09.31 PM" width="121" height="118"/>
-        <image name="Screen Shot 2017-05-13 at 6.09.40 PM" width="114" height="119"/>
+        <image name="call" width="1024" height="1024"/>
+        <image name="mail" width="186" height="190"/>
+        <image name="pause" width="117" height="115"/>
+        <image name="play" width="121" height="118"/>
+        <image name="stop" width="114" height="119"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="eID-5E-rU5"/>
+        <segue reference="teq-Qr-DMa"/>
     </inferredMetricsTieBreakers>
 </document>
