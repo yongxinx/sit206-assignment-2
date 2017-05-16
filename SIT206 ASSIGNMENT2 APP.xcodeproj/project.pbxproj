@@ -17,6 +17,8 @@
 		7446EB191EB61284000D4B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7446EB171EB61284000D4B98 /* LaunchScreen.storyboard */; };
 		7446EB241EB61284000D4B98 /* SIT206_ASSIGNMENT2_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7446EB231EB61284000D4B98 /* SIT206_ASSIGNMENT2_APPTests.swift */; };
 		7446EB2F1EB61284000D4B98 /* SIT206_ASSIGNMENT2_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7446EB2E1EB61284000D4B98 /* SIT206_ASSIGNMENT2_APPUITests.swift */; };
+		748670D41ECB1EE500624D4B /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748670D31ECB1EE500624D4B /* Car.swift */; };
+		748670D61ECB2C1900624D4B /* CarInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748670D51ECB2C1900624D4B /* CarInfoTableViewController.swift */; };
 		74A4CFDC1EC9F5F70033D775 /* UsedCarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4CFDB1EC9F5F70033D775 /* UsedCarsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,8 @@
 		7446EB2A1EB61284000D4B98 /* SIT206 ASSIGNMENT2 APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SIT206 ASSIGNMENT2 APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7446EB2E1EB61284000D4B98 /* SIT206_ASSIGNMENT2_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIT206_ASSIGNMENT2_APPUITests.swift; sourceTree = "<group>"; };
 		7446EB301EB61284000D4B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748670D31ECB1EE500624D4B /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		748670D51ECB2C1900624D4B /* CarInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInfoTableViewController.swift; sourceTree = "<group>"; };
 		74A4CFDB1EC9F5F70033D775 /* UsedCarsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsedCarsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +89,7 @@
 		7446EB021EB61284000D4B98 = {
 			isa = PBXGroup;
 			children = (
+				748670D31ECB1EE500624D4B /* Car.swift */,
 				7446EB0D1EB61284000D4B98 /* SIT206 ASSIGNMENT2 APP */,
 				7446EB221EB61284000D4B98 /* SIT206 ASSIGNMENT2 APPTests */,
 				7446EB2D1EB61284000D4B98 /* SIT206 ASSIGNMENT2 APPUITests */,
@@ -110,6 +115,7 @@
 				7409D1F71EC6F562009CF942 /* orange juice 2.0.ttf */,
 				7446EB121EB61284000D4B98 /* Main.storyboard */,
 				741E2F011EC7377500C22333 /* ContactUsViewController.swift */,
+				748670D51ECB2C1900624D4B /* CarInfoTableViewController.swift */,
 				74A4CFDB1EC9F5F70033D775 /* UsedCarsTableViewController.swift */,
 				7409D1F91EC70186009CF942 /* LocationViewController.swift */,
 				7446EB151EB61284000D4B98 /* Assets.xcassets */,
@@ -272,8 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748670D61ECB2C1900624D4B /* CarInfoTableViewController.swift in Sources */,
 				7409D1FA1EC70186009CF942 /* LocationViewController.swift in Sources */,
 				74A4CFDC1EC9F5F70033D775 /* UsedCarsTableViewController.swift in Sources */,
+				748670D41ECB1EE500624D4B /* Car.swift in Sources */,
 				7446EB111EB61284000D4B98 /* ViewController.swift in Sources */,
 				7446EB0F1EB61284000D4B98 /* AppDelegate.swift in Sources */,
 				741E2F021EC7377500C22333 /* ContactUsViewController.swift in Sources */,
