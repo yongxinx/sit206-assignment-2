@@ -14,7 +14,15 @@ class UsedCarsTableViewController: UITableViewController {
     var cars : [Car] = [
         Car(name : "2016 BMW 330i M Sport", pri : 79990, img : UIImage(named : "2016 BMW 330i M Sport")!, status : "Drive Away"),
         Car(name : "2013 Mercedes-Benz ML500", pri : 67500, img : UIImage(named : "2013 Mercedes-Benz ML500")!, status : "Drive Away"),
-        Car(name : "2016 Audi A4 sport MY16", pri : 61888, img : UIImage(named : "2016 Audi A4 sport MY16")!, status : "Drive Away")
+        Car(name : "2016 Audi A4 sport MY16", pri : 61888, img : UIImage(named : "2016 Audi A4 sport MY16")!, status : "Drive Away"),
+        Car(name : "2013 Ford Ranger XL Hi-Rider", pri : 26000, img : UIImage(named : "2013 Ford Ranger XL Hi-Rider")!, status : "Drive Away"),
+        Car(name : "2014 Mazda 3 Touring BM Series", pri : 19950, img : UIImage(named : "2014 Mazda 3 Touring BM Series")!, status : "Drive Away"),
+        Car(name : "2016 Suzuki Vitara RT-S Auto 2WD", pri : 25990, img : UIImage(named : "2016 Suzuki Vitara RT-S Auto 2WD")!, status : "Drive Away"),
+        Car(name : "2017 Subaru Forester S4 MY17", pri : 35990, img : UIImage(named : "2017 Subaru Forester S4 MY17")!, status : "Drive Away"),
+        Car(name : "2015 Toyota Camry Altise Auto", pri : 19888, img : UIImage(named : "2015 Toyota Camry Altise Auto")!, status : "Drive Away"),
+        Car(name : "2014 Holden Calais V VF Auto MY15", pri : 38750, img : UIImage(named : "2014 Holden Calais V VF Auto MY15")!, status : "Drive Away"),
+        Car(name : "2014 Holden Cruze SRi-V JH Series MY14", pri : 14990, img : UIImage(named : "2014 Holden Cruze SRi-V JH Series MY14")!, status : "Drive Away"),
+        Car(name : "2016 Holden Commodore SS V Redline MY16", pri : 59490, img : UIImage(named : "2016 Holden Commodore SS V Redline MY16")!, status : "Drive Away")
     ]
     
     

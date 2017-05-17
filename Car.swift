@@ -38,9 +38,11 @@ class Cardetails {
         var carTransmission : String
         var carDrivetype : String
         var carRegexpiry : String
+        var carPrice : Int
+        var carFueleconomycombined : String
+    
+    init(img : UIImage, name : String, btype : String,  colour : String, rplate : String, ometer : Int, eng : String, transmission : String, dtype : String, rexpiry : String, pri : Int, FEC : String) {
         
-        init(img : UIImage, name : String, btype : String,  colour : String, rplate : String, ometer : Int, eng : String, transmission : String, dtype : String, rexpiry : String) {
-            
             self.carImage = img
             self.carName = name
             self.carBodytype = btype
@@ -51,6 +53,8 @@ class Cardetails {
             self.carTransmission = transmission
             self.carDrivetype = dtype
             self.carRegexpiry = rexpiry
+            self.carPrice = pri
+            self.carFueleconomycombined = FEC
         }
         
     }
