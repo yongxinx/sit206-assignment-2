@@ -22,18 +22,18 @@ class EnquiryViewController: UIViewController {
     
         if nameTxt.text == "" || emailTxt.text == "" || phoneTxt.text == "" || postcodeTxt.text == "" {
             
-            let alertController1 = UIAlertController(title: "Alert", message: "empty", preferredStyle: .alert)
+            let alertController1 = UIAlertController(title: "Failed!:-(", message: "Please fill in the missing field!", preferredStyle: .alert)
             
             let yesAction1 = UIAlertAction(title: "Ok", style: .default) {
-                (action) -> Void in print("hahahaha")
+                (action) -> Void in print("111111")
             }
             alertController1.addAction(yesAction1)
             self.present(alertController1, animated: true, completion: nil)
         } else {
-            let alertController2 = UIAlertController(title: "Alert", message: "success", preferredStyle: .alert)
+            let alertController2 = UIAlertController(title: "Enquiry sent successfully!:-)", message: "We will contact you shortly!", preferredStyle: .alert)
             
             let yesAction2 = UIAlertAction(title: "Ok", style: .default) {
-                (action) -> Void in print("111111")
+                (action) -> Void in print("222222")
             }
             alertController2.addAction(yesAction2)
             self.present(alertController2, animated: true, completion: nil)

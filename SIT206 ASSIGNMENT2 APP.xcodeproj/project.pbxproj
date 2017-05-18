@@ -20,6 +20,8 @@
 		748670D41ECB1EE500624D4B /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748670D31ECB1EE500624D4B /* Car.swift */; };
 		748670D61ECB2C1900624D4B /* CarInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748670D51ECB2C1900624D4B /* CarInfoTableViewController.swift */; };
 		74A4CFDC1EC9F5F70033D775 /* UsedCarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4CFDB1EC9F5F70033D775 /* UsedCarsTableViewController.swift */; };
+		74B6BEAD1ECDD7A00049972B /* SellyourcarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6BEAC1ECDD7A00049972B /* SellyourcarTableViewController.swift */; };
+		74B6BEB11ECDF2E00049972B /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74B6BEB01ECDF2E00049972B /* song.mp3 */; };
 		74DEF5501ECCABC300555618 /* EnquiryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DEF54F1ECCABC300555618 /* EnquiryViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,8 @@
 		748670D31ECB1EE500624D4B /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		748670D51ECB2C1900624D4B /* CarInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInfoTableViewController.swift; sourceTree = "<group>"; };
 		74A4CFDB1EC9F5F70033D775 /* UsedCarsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsedCarsTableViewController.swift; sourceTree = "<group>"; };
+		74B6BEAC1ECDD7A00049972B /* SellyourcarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellyourcarTableViewController.swift; sourceTree = "<group>"; };
+		74B6BEB01ECDF2E00049972B /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song.mp3; path = ../../song.mp3; sourceTree = "<group>"; };
 		74DEF54F1ECCABC300555618 /* EnquiryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnquiryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,7 +123,9 @@
 				741E2F011EC7377500C22333 /* ContactUsViewController.swift */,
 				748670D51ECB2C1900624D4B /* CarInfoTableViewController.swift */,
 				74DEF54F1ECCABC300555618 /* EnquiryViewController.swift */,
+				74B6BEB01ECDF2E00049972B /* song.mp3 */,
 				74A4CFDB1EC9F5F70033D775 /* UsedCarsTableViewController.swift */,
+				74B6BEAC1ECDD7A00049972B /* SellyourcarTableViewController.swift */,
 				7409D1F91EC70186009CF942 /* LocationViewController.swift */,
 				7446EB151EB61284000D4B98 /* Assets.xcassets */,
 				7446EB171EB61284000D4B98 /* LaunchScreen.storyboard */,
@@ -253,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B6BEB11ECDF2E00049972B /* song.mp3 in Resources */,
 				7409D1F81EC6FA1C009CF942 /* orange juice 2.0.ttf in Resources */,
 				7446EB191EB61284000D4B98 /* LaunchScreen.storyboard in Resources */,
 				7446EB161EB61284000D4B98 /* Assets.xcassets in Resources */,
@@ -281,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B6BEAD1ECDD7A00049972B /* SellyourcarTableViewController.swift in Sources */,
 				748670D61ECB2C1900624D4B /* CarInfoTableViewController.swift in Sources */,
 				7409D1FA1EC70186009CF942 /* LocationViewController.swift in Sources */,
 				74DEF5501ECCABC300555618 /* EnquiryViewController.swift in Sources */,
