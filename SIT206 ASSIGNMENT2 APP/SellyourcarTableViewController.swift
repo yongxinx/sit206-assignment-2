@@ -38,7 +38,7 @@ class SellyourcarTableViewController: UITableViewController {
             alertController3.addAction(yesAction3)
             self.present(alertController3, animated: true, completion: nil)
         } else {
-            let alertController4 = UIAlertController(title: ":-)", message: "Enquiry sent successfully. We will contact you shortly", preferredStyle: .alert)
+            let alertController4 = UIAlertController(title: ":-)", message: "Enquiry sent successfully. We will contact you shortly!", preferredStyle: .alert)
             
             let yesAction4 = UIAlertAction(title: "Ok", style: .default) {
                 (action) -> Void in print("222222")
