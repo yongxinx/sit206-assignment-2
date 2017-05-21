@@ -10,7 +10,7 @@
 		7409D1F81EC6FA1C009CF942 /* orange juice 2.0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7409D1F71EC6F562009CF942 /* orange juice 2.0.ttf */; };
 		7409D1FA1EC70186009CF942 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7409D1F91EC70186009CF942 /* LocationViewController.swift */; };
 		741E2F021EC7377500C22333 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741E2F011EC7377500C22333 /* ContactUsViewController.swift */; };
-		74395EA91ECEE14800F1CB1A /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74395EA81ECEE14800F1CB1A /* song.mp3 */; };
+		743B79251ED1B38F00CB441C /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 743B79241ED1B38F00CB441C /* song.mp3 */; };
 		7446EB0F1EB61284000D4B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7446EB0E1EB61284000D4B98 /* AppDelegate.swift */; };
 		7446EB111EB61284000D4B98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7446EB101EB61284000D4B98 /* ViewController.swift */; };
 		7446EB141EB61284000D4B98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7446EB121EB61284000D4B98 /* Main.storyboard */; };
@@ -46,7 +46,7 @@
 		7409D1F71EC6F562009CF942 /* orange juice 2.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "orange juice 2.0.ttf"; sourceTree = "<group>"; };
 		7409D1F91EC70186009CF942 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		741E2F011EC7377500C22333 /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
-		74395EA81ECEE14800F1CB1A /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song.mp3; path = ../../song.mp3; sourceTree = "<group>"; };
+		743B79241ED1B38F00CB441C /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 		7446EB0B1EB61284000D4B98 /* SIT206 ASSIGNMENT2 APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SIT206 ASSIGNMENT2 APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7446EB0E1EB61284000D4B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7446EB101EB61284000D4B98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,8 +121,8 @@
 				7409D1F71EC6F562009CF942 /* orange juice 2.0.ttf */,
 				7446EB121EB61284000D4B98 /* Main.storyboard */,
 				741E2F011EC7377500C22333 /* ContactUsViewController.swift */,
-				74395EA81ECEE14800F1CB1A /* song.mp3 */,
 				748670D51ECB2C1900624D4B /* CarInfoTableViewController.swift */,
+				743B79241ED1B38F00CB441C /* song.mp3 */,
 				74DEF54F1ECCABC300555618 /* EnquiryViewController.swift */,
 				74A4CFDB1EC9F5F70033D775 /* UsedCarsTableViewController.swift */,
 				74B6BEAC1ECDD7A00049972B /* SellyourcarTableViewController.swift */,
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7409D1F81EC6FA1C009CF942 /* orange juice 2.0.ttf in Resources */,
-				74395EA91ECEE14800F1CB1A /* song.mp3 in Resources */,
+				743B79251ED1B38F00CB441C /* song.mp3 in Resources */,
 				7446EB191EB61284000D4B98 /* LaunchScreen.storyboard in Resources */,
 				7446EB161EB61284000D4B98 /* Assets.xcassets in Resources */,
 				7446EB141EB61284000D4B98 /* Main.storyboard in Resources */,
